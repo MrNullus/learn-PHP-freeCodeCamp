@@ -9,14 +9,24 @@
     <body>
         <form action="site.php" method="get">
             <label for="name">Nome</label> <input type="text" name="name" id="name">
+            <br>
 
+            <label for="name">Idade</label> <input type="number" name="age" id="age">
+
+            <br>
             <input type="submit" value="Enviar">
         </form>
         <br>
 
-        <?php
-                echo $_GET["name"]; // $_GET[<campo>] |> vai servir para pegar e retornar o valor do campo
-        ?>
+        <?php // $_GET[<campo>] |> vai servir para pegar e retornar o valor do campo ?>
+        <p>
+            Meu nome é <?php echo $_GET["name"]; ?>
+        </p>
+
+        <p>
+            Minha idade <?php echo $_GET["age"]; ?>
+        </p>
+        
 
     </body>
 </html>
