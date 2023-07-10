@@ -1,9 +1,5 @@
 <h1 align="center">Learn PHP</h1>
 
-<p align="center">
-  <img src="php-logo.png" alt="PHP Logo" width="200">
-</p>
-
 <p align="center">🚀 FreeCodeCamp's PHP Course</p>
 
 ## 📚 Course Overview
